@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.pig {
+    position: relative;
+}
+
+
+.face {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+    
+}
+
+.eye.left {
+    left: 40px;
+    
+}
+
+.eye.right {
+    right: 40px;
+   
+}
+.nose{
+    position: absolute ;
+    width: 60px;
+    height: 40px;
+    background-color: red;
+    border-radius: 40%;
+    bottom: 50px;
+    border: 2px solid black;
+
+}
+.nostril {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    top: 10px;
+}
+
+
+.nostril.left {
+    left: 38px;
+}
+
+.nostril.right {
+   right: 38px;
+   
+}
+.ear {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 50%;
+    top: -2px;
+}
+
+.ear.left {
+    left: -1x;
+    border: 2px solid black;
+}
+
+.ear.right {
+    right: -1px;
+    border: 2px solid black;
+    
+}
+
+
+.eye.left {
+    left: 40px;
+}
+
+.eye.right {
+    right: 40px;
+}
+.eyes{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 60%;
+    left: 50px;
+    top: 70px;
+    
+
+}
+.eyess{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    right: 50px;
+    top: 70px;
+}
